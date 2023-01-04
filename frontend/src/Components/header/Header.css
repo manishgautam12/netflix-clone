@@ -1,0 +1,28 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    z-index: 999;
+    justify-content: space-between;
+}
+
+.header_logo {
+    position: fixed;
+    object-fit: contain;
+    width: 100px;
+    left: 20px;
+
+}
+
+.header_userIcon {
+    position: fixed;
+    object-fit: contain;
+    width: 30px;
+    right: 20px;
+}
+.header_black{
+background-color: #111;
+height: 10px;
+}
